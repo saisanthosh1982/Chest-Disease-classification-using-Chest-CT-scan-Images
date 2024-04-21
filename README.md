@@ -55,3 +55,20 @@ git push origin main
 Else you can use the VS code itself to make the commits with few integrations, search stackoverflow for the configuration.
 
 **6. Will be updated soon:**
+Ml-flow dagshub URL
+* Go to dagshub and create a clone of your github repository then click on remote select experiments click on usinng mlflow tracking copy and paste here as below
+```bash
+MLFLOW_TRACKING_URI=https://dagshub.com/saisanthosh9154/mlflow_demo.mlflow \
+MLFLOW_TRACKING_USERNAME=saisanthosh9154 \
+MLFLOW_TRACKING_PASSWORD=8ac56ed76aac52d4377524ba8ae2dc307ac4bdc3 \
+python script.py
+```
+
+Connect dagsHub URL using bash terminal 
+```bash
+export MLFLOW_TRACKING_URI=https://dagshub.com/saisanthosh9154/mlflow_demo.mlflow
+
+export MLFLOW_TRACKING_USERNAME=saisanthosh9154
+
+export MLFLOW_TRACKING_PASSWORD=8ac56ed76aac52d4377524ba8ae2dc307ac4bdc3
+```
